@@ -1,0 +1,10 @@
+.html {
+    background-image: url(https://www.google.com/imgres?imgurl=https%3A%2F%2Fi.pinimg.com%2Foriginals%2Fa9%2F12%2F25%2Fa9122539bc17f0b49c3664cf0cf5e43a.jpg&imgrefurl=https%3A%2F%2Fwww.pinterest.com%2Fpin%2F168110998567184414%2F&tbnid=eyDVZSstC9WPvM&vet=12ahUKEwiihcz24onuAhWHOuwKHTIUCt4QMygAegUIARCoAQ..i&docid=AMhv9N3bku4hCM&w=1024&h=768&q=coding%20background&ved=2ahUKEwiihcz24onuAhWHOuwKHTIUCt4QMygAegUIARCoAQ);
+}
+.p {
+    text-align: center;
+    font-size: 20px;
+    color: white;
+    background-color: red;
+    border: solid, red, 5px;
+}
