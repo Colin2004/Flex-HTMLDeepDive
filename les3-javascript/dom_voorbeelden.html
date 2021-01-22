@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function haalElementenOp(){
+            let fotoslider = document.getElementById("fotoslider");
+            console.log(fotoslider); // Kijk in je webinspector bij de console. Dit laat zien wat je hebt opgehaald!
+            // Vind het eerste element met de class "foto"
+            let eersteFotoDiv = document.querySelector('.foto');
+            console.log(eersteFotoDiv); // Kijk in je webinspector bij de console. Dit laat zien wat je hebt opgehaald!
+            // Vind ALLE elementen met de class "foto"
+            let alleFotoDivs = document.querySelectorAll('.foto');
+            console.log(alleFotoDivs); // Kijk in je webinspector bij de console. Dit laat zien wat je hebt opgehaald!
+            for(let i = 0; i <alleFotoDivs.lenght; i++){
+                let item = alleFotoDivs[i]
+                console.log(alleFotoDivs)
+            }
+            }
+
+        // Let op je zet hier de naam van de function ZONDER de ()
+        window.addEventListener('DOMContentLoaded', haalElementenOp)
+        
+    </script>
+</head>
+<body>
+    <div id="fotoslider">
+        <div class="foto"><img src="../les2-slider-in-HTML-en-CSS/images/foto1.jpg" alt="foto 1"></div>
+        <div class="foto"><img src="../les2-slider-in-HTML-en-CSS/images/foto2.jpg" alt="foto 2"></div>
+        <div class="foto"><img src="../les2-slider-in-HTML-en-CSS/images/foto3.jpg" alt="foto 3"></div>
+     </div>
+</body>
+</html>
