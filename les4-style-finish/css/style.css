@@ -1,7 +1,4 @@
-
-
 #fotoslider{
-    border: black solid 5px;
     display: flex;
     flex-direction: row;
     padding: 0px;
@@ -20,7 +17,6 @@
 img{
     max-width: 100%;
     height: auto;
-    border: solid, black 3px;
 }
 body{
     margin: 0px;
@@ -29,10 +25,11 @@ body{
     position: relative;
     height: 300px;
     overflow: hidden;
-    width: 400px;
-    
+    width: 400px;  
 }
+
 body div{
+    background-color: rgb(17, 173, 140);
     margin-top: 20px;
     display: flex;
     flex-direction: column;
@@ -48,10 +45,12 @@ body div{
 .knop{
     padding: 4px;
     background-color: aliceblue;
-    color: gray;
+    color: black;
     border: black 2px solid;
 }
 .knop:hover{
-    color: black;
+    color: white;
+    background-color: black;
     cursor: pointer;
+    box-shadow: 2px 2px black;
 }
