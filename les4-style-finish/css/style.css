@@ -1,0 +1,57 @@
+
+
+#fotoslider{
+    border: black solid 5px;
+    display: flex;
+    flex-direction: row;
+    padding: 0px;
+    position: absolute;
+    left: 0;
+    transition-property: left;
+    transition-duration: 400ms;
+    transition-timing-function: ease-out;
+}
+.foto{
+    width: 400px;
+    height: 300px;
+    
+    
+}
+img{
+    max-width: 100%;
+    height: auto;
+    border: solid, black 3px;
+}
+body{
+    margin: 0px;
+}
+#viewport {
+    position: relative;
+    height: 300px;
+    overflow: hidden;
+    width: 400px;
+    
+}
+body div{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#controls{
+    flex-direction: row;
+}
+#controls button{
+    margin: 5px;
+}
+.knop{
+    padding: 4px;
+    background-color: aliceblue;
+    color: gray;
+    border: black 2px solid;
+}
+.knop:hover{
+    color: black;
+    cursor: pointer;
+}
